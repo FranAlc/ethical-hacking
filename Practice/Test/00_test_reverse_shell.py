@@ -11,7 +11,7 @@ accept()                        |
    |                            |
    |        <---------       connect()
    |                            |
-recv()        <-----         send)()
+recv()        <-----         send()
    |                            |
 send()       -------->       recv()
 """
