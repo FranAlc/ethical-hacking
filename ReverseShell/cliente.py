@@ -61,14 +61,15 @@ if __name__ == "__main__":
     list_pass = []
     print("[-] Para ingresar al sistema se requiere el nombre de usuario y su clave.")
     #usuario
+    #En mi caso el usuario y contrasena era "msfadmin"
     print("[*] Digite 5 posibles nombres de usuarios:\n")
-    for i in range(3):
+    for i in range(1,6):
         user = input(f"\t[*] Digite usuario {i}: ")
         list_user.append(user)
     print(f"[+] Posibles usuarios para ingresar: Lista >> {list_user}\n")    
     #clave
     print("[*] Digite 5 posibles claves de usuarios:")
-    for i in range(3):
+    for i in range(1,6):
         pwd = input(f"\t[*] Digite clave {i}: ")
         list_pass.append(pwd)
     print(f"[+] Posibles claves para ingresar: Lista >> {list_pass}\n")
