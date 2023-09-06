@@ -7,4 +7,15 @@ def cubo():
     print("|.'    |  .'")
     print("+------+'")
 
+print("*****************************************")
 cubo()
+print("Herramienta:")
+print("")
+print("Coded by Franco Galan")
+print("*****************************************")
+
+print("[01] Red/Redes")
+print("[02] DOS")
+print("[03] Exploit PC Linux")
+print("[04] Exploit PC Windows")
+print("[05] Extraccion")
