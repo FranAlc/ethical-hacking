@@ -16,3 +16,4 @@ shCodificado = b'VGV4dG8gcXVlIHNlcmEgZGVjb2RpZmljYWRv'
 decode = base64.b64decode(shCodificado)
 
 print(decode)
+# >> VGV4dG8gcXVlIHNlcmEgZGVjb2RpZmljYWRv
